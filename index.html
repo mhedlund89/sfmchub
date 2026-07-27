@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SFMC Tools Hub</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    background:#0f172a; color:#e2e8f0; padding:48px 20px; }
+  .wrap { max-width:880px; margin:0 auto; }
+  h1 { font-size:28px; margin:0 0 6px; }
+  .sub { color:#94a3b8; margin:0 0 8px; }
+  .note { color:#a5b4fc; font-size:13px; margin:0 0 28px; }
+  .grid { display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+  .card { background:#1e293b; border:1px solid #334155; border-radius:16px; padding:22px;
+    display:flex; flex-direction:column; gap:10px; }
+  .card h2 { font-size:18px; margin:0; }
+  .card p { color:#94a3b8; font-size:14px; margin:0; flex:1; }
+  .card a { align-self:flex-start; margin-top:8px; padding:10px 16px; border-radius:10px;
+    background:#6366f1; color:#fff; text-decoration:none; font-weight:600; font-size:14px; }
+  .card a:hover { background:#4f46e5; }
+  footer { color:#475569; font-size:12px; margin-top:32px; }
+</style></head>
+<body><div class="wrap">
+  <h1>SFMC Tools</h1>
+  <p class="sub">Private toolkit — sign in on each tool to use it.</p>
+  <p class="note">A tool may take ~30s to wake on first open (free hosting sleeps when idle).</p>
+  <div class="grid">
+    <div class="card"><h2>Suite Maker</h2>
+      <p>Provision full campaign suites — DEs, content blocks, events, journeys.</p>
+      <a id="link-suite" href="#" target="_blank" rel="noopener">Open</a></div>
+    <div class="card"><h2>SFMC Wizard</h2>
+      <p>Guided SFMC asset builder and inspector.</p>
+      <a id="link-wizard" href="#" target="_blank" rel="noopener">Open</a></div>
+    <div class="card"><h2>Journey Builder</h2>
+      <p>Assemble and deploy parametric journeys across accounts.</p>
+      <a id="link-journey" href="#" target="_blank" rel="noopener">Open</a></div>
+  </div>
+  <footer>SFMC Tools Hub · links open login-gated tools</footer>
+</div></body></html>
