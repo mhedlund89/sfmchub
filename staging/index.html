@@ -6,9 +6,9 @@
 <!--
   Staging hub. Mirrors ../index.html but points at the staging Render service.
 
-  The staging origin is written only in the three card links below. Renaming a Render
+  The staging origin is written only in the card links below. Renaming a Render
   service does not move its .onrender.com URL, so a new URL means the service was
-  rebuilt — update all three in one command:
+  rebuilt — update them all in one command:
 
       sed -i '' 's|https://sfmc-tools-staging.onrender.com|NEW_URL|g' staging/index.html
 
@@ -58,6 +58,9 @@
     <div class="card"><h2>Journey Builder</h2>
       <p>Assemble and deploy parametric journeys across accounts.</p>
       <a href="https://sfmc-tools-staging.onrender.com/journey/" target="_blank" rel="noopener">Open staging</a></div>
+    <div class="card"><h2>Promo Banner</h2>
+      <p>Schedule a promo banner that swaps in for a date window, saved as a content block.</p>
+      <a href="https://sfmc-tools-staging.onrender.com/wizard/#promo" target="_blank" rel="noopener">Open staging</a></div>
   </div>
   <footer>
     Staging service · sleeps when idle, so first open takes ~30–60s ·
